@@ -124,6 +124,3 @@ To design and document an Entity-Relationship Diagram (ERD) for the AirBnB datab
 - **Location**: `ERD/airbnb-erd.png`
 
 ---
-
-## 📁 Project Directory Structure
-
