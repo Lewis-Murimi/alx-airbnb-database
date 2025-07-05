@@ -26,7 +26,9 @@ SELECT
 FROM 
     properties
 LEFT JOIN 
-    reviews ON properties.id = reviews.property_id;
+    reviews ON properties.id = reviews.property_id
+ORDER BY 
+    properties.id, reviews.created_at DESC;
 
 
 -- 3. FULL OUTER JOIN - Users and Bookings
